@@ -31,6 +31,8 @@
   <run_depend>challenge_demo</run_depend>
   <run_depend>test_tools</run_depend>
 
+  <run_depend>challenge_supervisor</run_depend>
+
   <export>
     <metapackage/>
   </export>
