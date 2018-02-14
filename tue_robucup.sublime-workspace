@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"cont",
+				"continue"
+			],
+			[
 				"res",
 				"RespSig2\tstd::vector<float> RespSig2"
 			],
@@ -499,7 +503,7 @@
 			"file": "challenge_supervisor/src/supervisor.py",
 			"settings":
 			{
-				"buffer_size": 2073,
+				"buffer_size": 2917,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -760,13 +764,45 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 92.0,
-		"last_filter": "git push",
+		"height": 291.0,
+		"last_filter": "remove",
 		"selected_items":
 		[
 			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git quic",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"autopep",
+				"Preferences: AutoPep8 Key Bindings – Default"
+			],
+			[
+				"sublimelinter settigs",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
 				"git push",
 				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"pep8",
+				"Preferences: AutoPep8 Settings – User"
 			],
 			[
 				"git qui",
@@ -793,24 +829,12 @@
 				"Git: Pull"
 			],
 			[
-				"git quic",
-				"Git: Quick Commit (repo)"
-			],
-			[
-				"git comm",
-				"Git: Commit"
-			],
-			[
 				"git status",
 				"Git: Status"
 			],
 			[
 				"error",
 				"BracketHighlighter: Match Brackets (ignore threshold)"
-			],
-			[
-				"git pus",
-				"Git: Push"
 			],
 			[
 				"qui",
@@ -875,10 +899,6 @@
 			[
 				"instl",
 				"Package Control: Install Package"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"change",
@@ -1057,11 +1077,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 521.0
+		"width": 623.0
 	},
 	"console":
 	{
-		"height": 126.0,
+		"height": 223.0,
 		"history":
 		[
 			"window.run_command(\"ansi_color_build\", args={\"kill\": True})"
@@ -1080,10 +1100,26 @@
 	[
 		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup",
 		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/challenge_supervisor",
-		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/challenge_supervisor/src"
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/challenge_supervisor/src",
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/robot_skills",
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/robot_skills/src",
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/robot_skills/src/robot_skills",
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/robot_smach_states",
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/robot_smach_states/src",
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/robot_smach_states/src/robot_smach_states",
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/robot_smach_states/src/robot_smach_states/human_interaction"
 	],
 	"file_history":
 	[
+		"/home/jorrit/.config/sublime-text-3/Packages/AutoPEP8/Default.sublime-keymap",
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/robot_smach_states/src/robot_smach_states/human_interaction/human_interaction.py",
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/challenge_demo/src/demo.py",
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/robot_skills/src/robot_skills/api.py",
+		"/home/jorrit/Documents/Cloud/Stack/TU/Afstuderen/Code/js_tue_robocup/tue_robocup/tue_robucup.sublime-project",
+		"/home/jorrit/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/jorrit/.config/sublime-text-3/Packages/User/AutoPep8.sublime-settings",
+		"/home/jorrit/.config/sublime-text-3/Packages/AutoPep8/Default.sublime-keymap",
+		"/home/jorrit/.config/sublime-text-3/Packages/AutoPep8/AutoPep8.sublime-settings",
 		"/home/jorrit/tue_robocup",
 		"/home/jorrit/Documents/Cloud/Stack/Projecten/Programming/WearlessTech/phase-base-video-magnification/rrpff/arm-gnueabi.toolchain.cmake",
 		"/home/jorrit/Documents/Cloud/Stack/Projecten/Programming/WearlessTech/phase-base-video-magnification/rrpff/CMakeLists.txt",
@@ -1202,16 +1238,7 @@
 		"/home/jorrit/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
 		"/usr/include/eigen3/Eigen/src/Core/DenseStorage.h",
 		"/usr/include/eigen3/Eigen/src/Core/Matrix.h",
-		"/build/glibc-t3gR2i/glibc-2.23/assert/assert.c",
-		"/home/jorrit/Documents/Cloud/Stack/Projecten/Programming/phase base video magnification/pbmoma-master/src/main.cpp",
-		"/home/jorrit/.config/sublime-text-3/Packages/SublimeGDB/SublimeGDB.sublime-settings",
-		"/home/jorrit/Documents/Cloud/Stack/Projecten/Programming/phase base video magnification/pbmoma-master/crane_cro_ampl.avi",
-		"/home/jorrit/Temp/Core.c",
-		"/home/jorrit/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/home/jorrit/Documents/Cloud/Stack/Projecten/Programming/phase base video magnification/pbmoma-master/pbmoma.sublime-project",
-		"/home/jorrit/Documents/Cloud/Stack/Projecten/Programming/phase base video magnification/pbmoma-master/src/third/nfft/include/infft.h",
-		"/home/jorrit/.config/sublime-text-3/Packages/Clang Format/clang_format_custom.sublime-settings",
-		"/home/jorrit/Documents/Cloud/Stack/Projecten/Programming/phase base video magnification/pbmoma-master/src/third/steerpyr/Src/matrix.c"
+		"/build/glibc-t3gR2i/glibc-2.23/assert/assert.c"
 	],
 	"find":
 	{
@@ -1219,7 +1246,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 132.0,
 		"where_history":
 		[
 			""
@@ -1230,6 +1257,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hmi",
 			"find_host_program",
 			"buffer",
 			"DownSampleFactor",
@@ -1356,8 +1384,7 @@
 			"enabled",
 			"SETTING_MOVIES_ENABLED_PLAYERS",
 			"active_players",
-			"setting",
-			"self.addon"
+			"setting"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1385,31 +1412,73 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2073,
+						"buffer_size": 2917,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								392,
-								392
+								1096,
+								1096
 							]
 						],
 						"settings":
 						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": "\\",
+									"selector": "text.tex.latex"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										1206,
+										1207
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										1004,
+										1005
+									]
 								},
 								"unmatched":
 								{
@@ -1427,11 +1496,6 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1447,21 +1511,26 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1477,12 +1546,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										1206,
+										1207
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										1004,
+										1005
+									]
 								},
 								"unmatched":
 								{
@@ -1500,11 +1584,6 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1520,21 +1599,26 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1547,12 +1631,12 @@
 								"bh_regex_content"
 							],
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 204.0,
+						"translation.y": 816.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1592,6 +1676,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 172.0
+	},
 	"output.exec":
 	{
 		"height": 258.0
@@ -1603,6 +1691,10 @@
 	"output.git":
 	{
 		"height": 206.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
 	},
 	"output.stino_build_panel":
 	{
