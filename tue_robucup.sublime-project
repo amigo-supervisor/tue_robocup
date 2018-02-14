@@ -13,5 +13,9 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"SublimeLinter":
+    {
+        "@python": 2
+    }
 }

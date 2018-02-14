@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python2
 
 # ------------------------------------------------------------------------------------------------------------------------
 # By Jorrit Smit 2018
@@ -29,29 +29,28 @@ print "=============================================="
 def setup_statemachine(robot):
   sm = smach.StateMachine(outcomes=['Done', 'Aborted'])
 
-    with sm:
-      smach.StateMachine.add('INITIALIZE',
-                             states.Initialize(robot),
-                             transitions={'initialized': 'SET_INITIAL_POSE',
-                                          'abort': 'Aborted'})
+  with sm:
+    smach.StateMachine.add('INITIALIZE',
+                           states.Initialize(robot),
+                           transitions={'initialized': 'SET_INITIAL_POSE',
+                                        'abort': 'Aborted'})
 
-      smach.StateMachine.add('SET_INITIAL_POSE',
-                             states.SetInitialPose(
-                                 robot, challenge_knowledge.starting_point),
-                             transitions={'done': 'WAIT_TO_BEGIN',
-                                          "preempted": 'Aborted',
-                                          'error': 'Aborted'})
+    smach.StateMachine.add('SET_INITIAL_POSE',
+                           states.SetInitialPose(
+                               robot, challenge_knowledge.starting_point),
+                           transitions={'done': 'WAIT_TO_BEGIN',
+                                        "preempted": 'Aborted',
+                                        'error': 'Aborted'})
 
-      smach.StateMachine.add('WAIT_TO_BEGIN',
-                             states.Say(
-                                 robot, ["Waiting to begin"], block=True),
-                             transitions={'spoken': 'ASK_TO_BEGIN'})
-      smach.StateMachine.add('ASK_TO_BEGIN',
-                             )
+    smach.StateMachine.add('WAIT_TO_BEGIN',
+                           states.Say(
+                               robot, ["Waiting to begin"], block=True),
+                           transitions={'spoken': 'ASK_TO_BEGIN'})
+    smach.StateMachine.add('ASK_TO_BEGIN',
+                           )
 
 
-
-############################## initializing program ##############################
+# ############################# initializing program ##############################
 if __name__ == '__main__':
   rospy.init_node('supervisor_exec')
 
