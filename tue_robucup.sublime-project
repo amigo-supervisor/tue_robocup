@@ -16,6 +16,11 @@
 	],
 	"SublimeLinter":
     {
-        "@python": 2
+        "linters":
+        {
+            "pylint": {
+                "python": "/usr/bin/python2"
+            }
+        }
     }
 }

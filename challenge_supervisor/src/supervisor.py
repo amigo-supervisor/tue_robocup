@@ -1,8 +1,8 @@
 #! /usr/bin/python2
 
-# ------------------------------------------------------------------------------------------------------------------------
-# By Jorrit Smit 2018
-# ------------------------------------------------------------------------------------------------------------------------
+# ------------------- #
+# By Jorrit Smit 2018 #
+# ------------------- #
 
 # import sys
 import rospy
@@ -14,7 +14,8 @@ import smach
 
 import robot_smach_states as states
 
-# from robot_smach_states.navigation import NavigateToObserve, NavigateToWaypoint, NavigateToSymbolic
+# from robot_smach_states.navigation import NavigateToObserve,
+# NavigateToWaypoint, NavigateToSymbolic
 # from robot_smach_states.util.designators import EntityByIdDesignator
 
 from robocup_knowledge import load_knowledge
@@ -37,7 +38,8 @@ class MoveArm(smach.State):
 
 
 class MoveBase(smach.State):
-  def __init__(self, robot, entity_designator_area_name_map, entity_lookat_designator):
+  def __init__(self, robot, entity_designator_area_name_map,
+               entity_lookat_designator):
     smach.State.__init__(self, outcomes=['succes', 'failed'])
 
   def execute(self, userdata=None):
@@ -104,7 +106,10 @@ def setup_statemachine(robot):
 
     with go_sm:
       smach.Concurrence.add('MOVE_ARM', MoveArm(robot))
-      smach.Concurrence.add('MOVE_BASE', MoveBase(robot, entity_designator_area_name_map, entity_lookat_designator))
+      smach.Concurrence.add('MOVE_BASE',
+                            MoveBase(robot,
+                                     entity_designator_area_name_map,
+                                     entity_lookat_designator))
       smach.Concurrence.add('GRAB_OBJECT', GrabObject(robot))
 
     smach.StateMachine.add('GO_SM', go_sm,
@@ -122,7 +127,10 @@ def setup_statemachine(robot):
 
     with po_sm:
       smach.Concurrence.add('MOVE_ARM', MoveArm(robot))
-      smach.Concurrence.add('MOVE_BASE', MoveBase(robot, entity_designator_area_name_map, entity_lookat_designator))
+      smach.Concurrence.add('MOVE_BASE',
+                            MoveBase(robot,
+                                     entity_designator_area_name_map,
+                                     entity_lookat_designator))
       smach.Concurrence.add('RELEASE_OBJECT', ReleaseObject(robot))
 
     smach.StateMachine.add('PO_SM', po_sm,
@@ -131,7 +139,8 @@ def setup_statemachine(robot):
                                         'failed': 'Aborted'})
   return sm
 
-# ############################# initializing program ############################## #
+
+# ############################# initializing program ######################### #
 if __name__ == '__main__':
   rospy.init_node('supervisor_exec')
 
