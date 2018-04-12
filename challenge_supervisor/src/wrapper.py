@@ -64,7 +64,11 @@ def arm_left_move(pre):
   global arm_left_moving_arm
   global left_grab_exec_object_in_WS
 
+<<<<<<< HEAD
   leftarm.resolve().send_goal('handover_pose', timeout=0.0)
+=======
+  leftarm.resolve().send_goal('carrying_pose', timeout=0.0)
+>>>>>>> 88e4609a56957a7a3cde8d7d25fb552bde494e6f
   arm_left_moving_arm = True
   # left_grab_exec_object_in_WS = 0
   Amigo_AssignInputVariables()
@@ -417,3 +421,4 @@ if __name__ == '__main__':
     lib.Amigo_EngineTimeStep(0.5)
     rospy.sleep(0.5)
     reset_variables()
+
